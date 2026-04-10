@@ -53,6 +53,8 @@ Example configuration:
 5. Sort the spreadsheet by:
    - Shelf → Row → Column
 
+![Sorting Config](images/sorting_config.png)
+
 Your Excel spreadsheet is now ready to use.
 
 ---
