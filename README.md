@@ -31,7 +31,7 @@ Our project implementation uses **120 unique objects randomly divided amongst fi
 1. Create a new Excel Spreadsheet.
 2. At the top, enter the following column names:
 
-![Excel Format](images/page_2.png)
+![Excel Format](images/excel_format.png)
 
 - Item Name  
 - Bin ID  
@@ -48,7 +48,7 @@ Our project implementation uses **120 unique objects randomly divided amongst fi
 
 Example configuration:
 
-![Config](images/page_3.png)
+![Config](images/params_config.png)
 
 5. Sort the spreadsheet by:
    - Shelf → Row → Column
@@ -61,7 +61,7 @@ Your Excel spreadsheet is now ready to use.
 
 Once you have your Excel spreadsheet, you can use the **Aruco Maker (Colab or Python Script)** to automatically generate markers.
 
-![Markers Example](images/page_4.png)
+![Markers Example](images/markers_example.png)
 
 You will also need markers:
 - **990**
@@ -86,7 +86,7 @@ These are used for output bins.
 
 Clearly label each shelf with a letter and use colored tape.
 
-![Shelf](images/page_6.png)
+![Shelf](images/labeled_shelf.png)
 
 ---
 
@@ -97,7 +97,7 @@ Gather:
 - Corresponding marker
 - One bin
 
-![Objects](images/page_7.png)
+![Objects](images/bin_and_marker.png)
 
 ---
 
@@ -107,7 +107,7 @@ Place objects in the bin and attach the marker so it stands upright.
 
 > 💡 Tip: Tape it to cardboard if needed to prevent sagging.
 
-![Mounted](images/page_8.png)
+![Mounted](images/assembled_bin.png)
 
 ---
 
@@ -115,7 +115,7 @@ Place objects in the bin and attach the marker so it stands upright.
 
 Place bins according to their **(row, column)** location.
 
-![Placement](images/page_9.png)
+![Placement](images/placed_bins.png)
 
 ---
 
@@ -123,7 +123,7 @@ Place bins according to their **(row, column)** location.
 
 Repeat for all bins and shelves.
 
-![Full Shelf](images/page_10.png)
+![Full Shelf](images/filled_shelf.png)
 
 ---
 
