@@ -30,9 +30,7 @@ Our project implementation uses **120 unique objects randomly divided amongst fi
 
 1. Create a new Excel Spreadsheet.
 2. At the top, enter the following column names:
-
-![Excel Format](images/excel_format.png)
-
+   
 - Item Name  
 - Bin ID  
 - Shelf  
@@ -42,7 +40,10 @@ Our project implementation uses **120 unique objects randomly divided amongst fi
 3. For each of your unique items, enter its name and Bin ID.  
    Do **not** enter anything into Shelf, Row, or Column yet.
 
-4. Use the **Rack Randomizer (Colab or Python Script)** to assign positions.
+   ![Excel Format](images/excel_format.png)
+
+
+5. Use the **Rack Randomizer (Colab or Python Script)** to assign positions.
 
 > ⚠️ **Make sure to adjust parameters to match your lab setup.**
 
