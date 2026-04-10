@@ -78,11 +78,20 @@ These are used for output bins.
 ## Setting up the Lab Environment
 
 ### You will need:
-- Bins to hold your objects
-- Shelves
-- Dataset objects
-- ArUco markers
 
+- **Bins to hold your dataset objects**  
+  We recommend these bins from Uline:  
+  https://www.uline.com/BL_305/Uline-Plastic-Stackable-Bins  
+  + **3 additional bins** for the output.
+
+- **Shelves to hold your bins**  
+  Our dataset used **five banks of shelves**, with **four shelves each**, where each shelf could hold **six bins side-by-side** for a total of **120 unique objects**.
+
+- **An additional shelf or surface for your Output Bins**
+
+- **Your dataset objects**
+
+- **Your ArUco Markers**, plus markers **990, 991, and 992**
 ---
 
 ### 1. Label Shelves
@@ -180,12 +189,96 @@ After each task, return all items from output bins.
 
 ## Appendix 1: Dataset Objects
 
-Any assortment of unique objects will work.
+Please note that any assortment of unique objects should suffice.  
+However, for **full reproducibility**, the following is the exact dataset (or closest available equivalents) used in this project.
 
-Examples:
-- Acrylic Gems  
-- Foam Letters  
-- Plastic utensils  
-- Clips, tiles, beads  
+Some objects are no longer available and may need substitutes.
 
-Substitutions are acceptable.
+---
+
+### 🧪 Objects Used
+
+- **Acrylic Gems**  
+  https://a.co/d/0iq4STys  
+
+- **Colored Paperclips**  
+  https://a.co/d/0iq4STys  
+
+- **IKEA PRIDLIG Owl/Leaf Clips**  
+  *No longer sold in stores.*  
+  Replace with **9 unique object types** of similar size/shape.
+
+---
+
+### 🔤 Foam Letters  
+https://www.target.com/p/munchkin-bath-letters-and-numbers-36ct-bath-toy-set/-/A-14026155  
+
+- Each set contains **26 unique letters**
+- You will need **at least 3 sets**
+
+---
+
+### 🍴 IKEA KALAS Flatware Set  
+https://www.ikea.com/us/en/p/kalas-18-piece-flatware-set-mixed-colors-seasonal-edition-30620094/
+
+- Each set contains:
+  - 1 fork, knife, and spoon  
+  - In each of 6 colors  
+- You will need **at least 3 sets**
+
+---
+
+### 📎 Clips & Small Objects
+
+- **IKEA BEVARA Plastic Sealing Clips** (similar item)  
+  https://a.co/d/0gydRNhG  
+
+- **Alligator Clips**  
+  https://a.co/d/0iNJln7d  
+
+- **Clothespins**  
+  https://a.co/d/06u5WJJU  
+
+---
+
+### 🟦 Tiles & Shapes
+
+- **Clear Acrylic Circular Tiles**  
+  https://a.co/d/02pwj52M  
+
+- **Red Square Tiles** (or use multiple colors as separate objects)  
+  https://a.co/d/0gAE6ubt  
+
+- **Wooden Tiles**  
+  https://a.co/d/0dLYki0V  
+
+---
+
+### 🕯️ Miscellaneous
+
+- **Candles**  
+  https://a.co/d/013cMZ4N  
+
+- **Black Casing**  
+  *Unknown origin — replace with any 1 unique object type*
+
+- **Blue Casing**  
+  *Unknown origin — replace with any 1 unique object type*
+
+---
+
+### 🔵 Beads / Spheres
+
+- **Wooden Beads** (original unknown source)  
+  Replace with:
+  - Larger marbles: https://a.co/d/04yI2Qqw  
+  - Smaller marbles: https://a.co/d/0e0Ahyme  
+
+---
+
+## 💡 Notes on Substitution
+
+- Substitutions are **completely acceptable**, but:
+  - Try to maintain **visual ambiguity** (similar shapes/colors)
+  - Avoid objects that are **too easy to distinguish**
+- The goal is to create a dataset that is **challenging for computer vision models**
