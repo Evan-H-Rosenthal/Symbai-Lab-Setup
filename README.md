@@ -20,7 +20,7 @@ Other objects that we haven’t tested, but would *(probably)* make good objects
 - **Lego Bricks**: The sheer variety of pieces allows for objects that have similar shapes with different colors, and similar colors with different shapes.
 - **Nuts/Bolts/Screws**: Similar shapes and colors that differ only in length or size.
 
-> ⚠️ **Important:** Make sure you have **at least three copies of each object**. With the way picklists are generated, each object has the potential to be selected up to three times per task.
+⚠️ **Important:** Make sure you have **at least three copies of each object**. With the way picklists are generated, each object has the potential to be selected up to three times per task.
 
 ---
 
@@ -45,11 +45,15 @@ Our project implementation uses **120 unique objects randomly divided amongst fi
 
 5. Use the **Rack Randomizer (Colab or Python Script)** to assign positions.
 
-> ⚠️ **Make sure to adjust parameters to match your lab setup.**
+⚠️ **Make sure to adjust parameters to match your lab setup.**
 
 Example configuration:
 
 ![Config](images/params_config.png)
+- 3 shelf banks
+- Shelf Labels: A,B,C
+- 2 shelves (rows) per shelf bank
+- Each shelf can hold 3 bins (columns)
 
 5. Sort the spreadsheet by:
    - Shelf → Row → Column
@@ -72,6 +76,8 @@ You will also need markers:
 - **992**
 
 These are used for output bins.
+You can use this online website to generate all three of them on the same piece of paper:
+https://fodi.github.io/arucosheetgen/
 
 ---
 
@@ -141,11 +147,9 @@ Repeat for all bins and shelves.
 
 ### 7. Output Bins
 
-Place three bins side-by-side and label them:
+Place three bins side-by-side and label them with the three 99X Aruco Markers, from left to right.
 
-- 990  
-- 991  
-- 992  
+![Output Bins](images/output_bins.jpg)
 
 ---
 
@@ -157,33 +161,56 @@ Use the **Picklist Generator Notebook/Script**.
 - Output: Task PDFs  
 
 Each task contains **one sub-task per shelf**.
+For example, since our lab setup has **5 shelves**, each task contains **5 sub-tasks**, or **5 pieces of paper.**
+
+![Task Example](images/task_example.png)
 
 ---
 
 ## Collecting the Data
 
 ### Equipment
-- Egocentric camera (e.g., GoPro)
+- Head-mounted, egocentric action camera
+- Set up shelves
+- Set up output bins
 
 ### Process
 
-1. Mount the camera
-2. Start recording
-3. Follow task sheet
+1. **Mount the camera**
+   - Camera hardware used: **Gopro Hero 13 Black**
+   - Lens attachment: **Ultra-wide Lens**
+   - Digital Lens: **Ultra-Wide**
+   - Framerate: **1x 30FPS**
+   - Framing: **Widescreen**
+   - **Horizon Leveling Off**
 
-For each object:
-
-- Take one item  
-- Carry it to output bins  
-- Place it in correct bin  
-
-Repeat for all objects.
+   Mount the camera to a head-strapped apparatus. Angle the camera down such that your hands are visible.
+   
+2. **Start recording**
+   For convenience, you can use the **Voice-activated start/stop function** included with the GoPro.
+   If you don't have the voice-activated function, you can also use the GoPro app if the camera you have is compatible.
+   Otherwise, the camera should have a physical start/stop button you can just reach up and press.
+   
+4. **Follow task sheet**
+   - Start with the first grid
+     
+     ![CircledGrid](images/gridcircled.png)
+   - Select **one** object from the grid
+     
+     ![CircledItem](images/itemcircled.png)
+     
+   - Reach into the corresponding bin and pick **one** object from the bin
+   - Carry the object **in your open palm** to the output bin
+   - Place the object into the output bin
+   - **Repeat with all objects in the selected grid**
+   - **Repeat with all grids**
+   - **Repeat with all task sheets**
 
 ---
 
 ## Resetting
 
-After each task, return all items from output bins.
+After each task, return all items from output bins. The Aruco Markers have the name of the objects printed on them for easy resetting.
 
 ---
 
@@ -246,7 +273,7 @@ https://www.ikea.com/us/en/p/kalas-18-piece-flatware-set-mixed-colors-seasonal-e
 - **Clear Acrylic Circular Tiles**  
   https://a.co/d/02pwj52M  
 
-- **Red Square Tiles** (or use multiple colors as separate objects)  
+- **Red Square Tiles** (the ones we used were laser cut from acrylic, but these foam ones should be sufficient. If you want to use the other colors, make them their own separate item.)  
   https://a.co/d/0gAE6ubt  
 
 - **Wooden Tiles**  
