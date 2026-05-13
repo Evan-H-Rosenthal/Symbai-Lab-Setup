@@ -309,3 +309,45 @@ https://www.ikea.com/us/en/p/kalas-18-piece-flatware-set-mixed-colors-seasonal-e
   - Try to maintain **visual ambiguity** (similar shapes/colors)
   - Avoid objects that are **too easy to distinguish**
 - The goal is to create a dataset that is **challenging for computer vision models**
+
+---
+
+## Dataset Object Photos
+
+The following photos show the actual objects used in the dataset.
+
+### Full Dataset Box
+
+![Full Dataset Box](images/full_dataset_box.jpg)
+
+### Acrylic Gems
+
+![Acrylic Gems](images/gems.jpg)
+
+### Chip Clips
+
+![Chip Clips](images/chipclips.jpg)
+
+### Clips
+
+![Clips](images/clips.jpg)
+
+### Flatware
+
+![Flatware](images/flatware.jpg)
+
+### Foam Letters
+
+![Foam Letters](images/letters.jpg)
+
+### Beads
+
+![Beads](images/beads.jpg)
+
+### Clothespins
+
+![Clothespins](images/clothespins.jpg)
+
+### Miscellaneous Objects
+
+![Miscellaneous Objects](images/misc.jpg)
